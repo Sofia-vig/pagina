@@ -77,7 +77,11 @@
 
   .servicio-bloques {
     flex-direction: row;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
+  }
+
+  .item-servicio {
+    margin: 0 130px;
   }
 
   /*Section Formulario*/
