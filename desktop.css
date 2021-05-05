@@ -24,11 +24,12 @@
     grid-area: main-right;
     justify-self: right;
     margin-right: 60px;
+    width: 435px;
+    height: 395px;
   }
 
   .titulo-introduccion {
     grid-area: main-left;
-    justify-self: left;
     text-align: left;
     margin: 0;
   }
@@ -41,6 +42,8 @@
       "header header"
       "main-left main-right"
       ". main-right";
+
+    column-gap: 70px;
   }
 
   /*Section Informacion*/
@@ -51,7 +54,7 @@
   }
 
   .bloque {
-    margin: 130px 90px;
+    margin: 160px 90px;
     width: 35vw;
     align-items: baseline;
     justify-content: center;
