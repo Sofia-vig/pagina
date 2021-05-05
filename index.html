@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sofia Vigna Fotografia</title>
+    <link rel="stylesheet" href="mobile.css" />
+    <link rel="stylesheet" href="desktop.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Section Introduccion-->
+    <section class="contenedor-introduccion">
+      <header class="contenedor-header">
+        <img src="src/camara.png" alt="logo-fotografia" class="header-logo" />
+        <div class="burger-header">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <!--Podria hacer lista-->
+        <nav class="nav-bar">
+          <a href="#">Quien soy</a>
+          <a href="#link-servicios">Servicios</a>
+          <a href="#link-formulario">Escribime</a>
+        </nav>
+      </header>
+      <h1 class="titulo-introduccion">Sofia Vigna Fotografía</h1>
+      <img src="src/sofi.png" alt="imagen-sofi" class="imagen-introduccion" />
+    </section>
+
+    <!--Section Informacion-->
+    <section class="contenedor-informacion">
+      <div class="bloque">
+        <h2 class="subtitulo-informacion" id="link-informacion">Sobre mi</h2>
+        <p class="biografia">
+          Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+          adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+          vehicula velit. Aenean lobortis posuere tristique. Phasellus placerat
+          arcu elementum nisi ultrices cursus. Etiam sit amet aliquet lacus.
+          Integer ut iaculis augue, sit amet tincidunt ex. In eleifend justo et
+          sodales semper. Mauris nec tortor lectus. Curabitur nec ultricies
+          dolor.
+        </p>
+      </div>
+      <img src="src/check.png" alt="" class="icono-informacion" />
+    </section>
+
+    <!--Section Servicios-->
+    <section class="contenedor-servicios">
+      <h2 class="servicio-subtitulo" id="link-servicios">Mis servicios</h2>
+      <div class="servicio-bloques">
+        <div class="item-servicio">
+          <img
+            src="src/camara.png"
+            alt="camara-de-fotos"
+            class="imagen-servicio"
+          />
+          <h3 class="pie-imagen">Sesiones de fotos</h3>
+          <p class="parrafo-servicios">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+        <div class="item-servicio">
+          <img
+            src="src/video.png"
+            alt="camara-de-video"
+            class="imagen-servicio"
+          />
+          <h3 class="pie-imagen">Videoclips</h3>
+          <p class="parrafo-servicios">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+        <div class="item-servicio">
+          <img src="src/note.png" alt="notebook" class="imagen-servicio" />
+          <h3 class="pie-imagen">Edición</h3>
+          <p class="parrafo-servicios">
+            Algo interesante sobre mi Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nulla dui quam, sollicitudin at enim id, sodales
+            vehicula velit. Aenean lobortis posuere tristique.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--Section Formulario-->
+    <section class="contenedor-formulario">
+      <h2 class="titulo-formulario" id="link-formulario">Escribime</h2>
+      <div class="formulario">
+        <div class="contenedor-input-formulario">
+          <label for="nombre">NOMBRE</label>
+          <input type="text" id="nombre" class="input" />
+        </div>
+        <div class="contenedor-input-formulario">
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" class="input" />
+        </div>
+        <div class="contenedor-input-formulario">
+          <label for="mensaje">MENSAJE</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            class="input input-mensaje"
+          ></textarea>
+        </div>
+        <div class="contenedor-input-formulario">
+          <button type="button" class="boton input">Enviar</button>
+        </div>
+      </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+      <div class="bloque-footer">
+        <img src="src/camara.png" alt="logo" class="header-logo" />
+        <p class="copy-footer">© 2021 Sofia</p>
+      </div>
+
+      <ul class="lista-redes-footer">
+        <li>
+          <img src="src/instagram.svg" alt="instagram" class="icono-footer" />
+          <a href="https://www.instagram.com/_ph.sv/" target="_blank"
+            >Instagram</a
+          >
+        </li>
+        <li>
+          <img src="src/linkedin.svg" alt="linkedin" class="icono-footer" />
+          <a href="https://www.linkedin.com/in/sofia-vigna/" target="_blank"
+            >Linkedin</a
+          >
+        </li>
+        <li>
+          <img src="src/github.svg" alt="github" class="icono-footer" />
+          <a href="https://github.com/Sofia-vig" target="_blank">Github</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
